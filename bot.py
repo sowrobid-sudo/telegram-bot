@@ -19,7 +19,7 @@ def main_menu():
 def tiktok_menu():
     menu = InlineKeyboardMarkup(row_width=1)
 
-    like_btn = InlineKeyboardButton("❤️ Like", url="https://zefoy.com/")
+    like_btn = InlineKeyboardButton("❤️ Like", url="https://zefoy.com")
     view_btn = InlineKeyboardButton("👁 View", url="https://your-view-link.com")
     comment_btn = InlineKeyboardButton("💬 Comment", url="https://your-comment-link.com")
 
